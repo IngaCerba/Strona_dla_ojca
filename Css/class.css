@@ -1,0 +1,263 @@
+
+a{
+text-decoration: none;
+color: gold;
+}
+.abc
+{
+width:1864px;
+}
+.background1
+{
+background-color: black;
+height: 943px;
+width: 920.2px;
+margin: 0px;
+padding: 0px;
+}
+.background2
+{
+background-color: silver;
+margin: 0px;
+padding: 0px;
+height: 943px;
+width: 920.2px;
+}
+.center
+{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.pasek
+{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+background-color: black;
+width: 100%;
+height: 50px;
+}
+.telefon
+{
+display:flex;
+margin-top: 25px;
+padding-left: 10px;
+width: 200px;
+height: 50px;
+color: #f1c682;
+}
+.telefon p
+{
+margin: 0px;
+margin-left: 10px;
+}
+.dropbtn
+{
+background-color: transparent;
+font-size: 30px;
+color: #f1c682;
+padding: 2px;
+border: none;
+}
+.dropdown
+{
+float:right;
+display: inline-block;
+}
+.dropdown-content
+{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 40px;
+z-index: 1;
+}
+.dropdown-content a
+{
+color: black;
+padding: 10px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content span
+{
+opacity: 50%;
+}
+.dropdown-content span:hover
+{
+opacity: 100%;
+}
+.dropdown:hover .dropdown-content
+{
+display: block;
+}
+.infobox
+{
+background-color: black;
+align-items: center;
+display: flex;
+flex-direction: column;
+height: 700px;
+width: 50%;
+margin-top: 150px;
+margin-bottom: 150px;
+border-radius: 25px;
+border: solid 1px  #f1c682;
+}
+.logo
+{
+border: 1px solid #ddd;
+border-radius: 4px;
+margin-top: 50px;
+margin-left: auto;
+margin-bottom: 80px;
+margin-right: auto;
+width: 70%;
+}
+.arrow-down
+{
+margin-left: 30px;
+margin-top: 65px;
+font-size: 40px;
+float: left;
+color: #e8b524;
+opacity: 80%;
+}
+.arrow-down: hover
+{
+opacity: 100%;
+transition:0.5s  ease-in;
+}
+.arrow-right
+{
+margin-right: 30px;
+margin-top: 70px;
+font-size: 40px;
+float: right;
+color: #e8b524;
+opacity: 80%;
+}
+.arrow-right a :hover
+{
+color: #e8b524;
+opacity: 100%;
+transition:0.5s  ease-in;
+}
+.arrow-up
+{
+margin-top: 10px;
+margin-right: 15px;
+float: right;
+font-size: 40px;
+color: #e8b524;
+opacity: 80%;
+width: 30px;
+height: 30px;
+}
+.arrow-up: hover
+{
+opacity: 100%;
+transition:0.5s  ease-in;
+}
+.menu
+{
+display: flex;
+width: 70%;
+flex-direction: column;
+text-align: center;
+}
+.menu a
+{
+border-radius: 4px;
+background-color: #e8b524;
+margin-bottom: 40px;
+font-size: 18px;
+color: black;
+display: block;
+padding: 12px;
+text-decoration: none;
+opacity: 80%;
+}
+.menu a:hover
+{
+opacity: 100%;
+transform: scale(1.1);
+transition:0.5s  ease-in;
+}
+.article-image
+{
+background-color: white;
+}
+.article-image img
+{
+height: 943px;
+width: 100%;
+}
+h1
+{
+margin-top: 100px;
+margin-left: 85px;
+color: #f1c682;
+}
+p.text
+{
+position: relative;
+background-color: black;
+color: #f1c682;
+padding-top: 60px;
+padding-left: 90px;
+padding-right: 90px;
+text-align: left;
+}
+.stopka
+{
+background-color: black;
+padding: 10px;
+height: 500px;
+}
+.hidden
+{
+overflow-y: hidden;
+height: 750px;
+}
+.kontakt-box
+{
+margin-top: 50px;
+margin-left: 100px;
+margin-right: auto;
+right: 50px;
+top: 10px;
+color: #f1c682;;
+font-size: 11px;
+line-height: 120%;
+}
+.kontakt-box table
+{
+margin: 25px;
+margin-top:40px;
+padding: 10px;
+float:left;
+}
+.kontakt-box th
+{
+color:#f1c682;
+}
+.podpis
+{
+background-color: black;
+color: silver;
+display: flex;
+justify-content: center;
+}
+#map
+{
+height: 350px;
+width: 60%;
+margin-top: 50px;
+}
+.googlemap
+{
+display: flex;
+justify-content: flex-end;
+}
